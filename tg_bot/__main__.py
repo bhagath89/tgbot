@@ -131,8 +131,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="Owner", url="https://t.me/FlyingKILI")],
-                     [InlineKeyboardButton(text="Support", url="https://t.me/flyingKILI"), InlineKeyboardButton(text="Update Channel", url="https://t.me/FlyingKILI")],
+                    [[InlineKeyboardButton(text="Owner", url="https://t.me/FlyingKILI")],
+                     [InlineKeyboardButton(text="Support", url="https://t.me/flyingKILI"),
                      [InlineKeyboardButton(text="Source", url="https://t.me/uvvauvve"), InlineKeyboardButton(text="Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
