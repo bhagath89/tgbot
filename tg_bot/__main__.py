@@ -27,8 +27,7 @@ Click /help to find out more about how to use me to my full potential...
 """
 
 HELP_STRINGS = """
-『HELP BUTTONS HERE』.
-{}
+      『HELP BUTTONS HERE』 {}
 ㅤㅤㅤㅤㅤ:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nㅤㅤㅤㅤㅤ")
 
