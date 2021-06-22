@@ -132,7 +132,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="Owner", url="https://t.me/FlyingKILI")],
-                     [InlineKeyboardButton(text="Support", url="https://t.me/flyingKILI"),
+                     [InlineKeyboardButton(text="Support", url="https://t.me/flyingKILI")],
                      [InlineKeyboardButton(text="Source", url="https://t.me/uvvauvve"), InlineKeyboardButton(text="Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
