@@ -22,13 +22,13 @@ PM_START_TEXT = """
 Hi..Welcome
 I'm Lilly 🌸
 I'm here to help you manage your groups..
-Click /help to find out more about how to use me to my full potential...
+Click /help to find out more about how to use me to my full potential...ㅤㅤㅤㅤㅤ
 
 """
 
 HELP_STRINGS = """
-      『HELP BUTTONS HERE』 {}
-ㅤㅤㅤㅤㅤ:
+      『HELP BUTTONS HERE』
+ㅤㅤㅤㅤㅤ
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nㅤㅤㅤㅤㅤ")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
